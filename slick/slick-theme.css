@@ -99,13 +99,11 @@ body{
 }
 
 .slick-next{
-    padding-left: 85px;
     width: 40px;
     height: 40px;
 }
 
 .slick-prev{
-    padding-right: 155px;
     z-index: 2;
     width: 40px;
     height: 40px;
@@ -113,6 +111,9 @@ body{
 
 .slick-prev:before {
   content: url(../prev.svg);
+  position: absolute;
+  right: 50px;
+  top:0px;
 }
 
 .slick-prev:hover:before{
@@ -120,7 +121,10 @@ body{
 }
 
 .slick-next:before {
-  content: url(../next.svg)
+  content: url(../next.svg);
+  position: absolute;
+  left: 60px;
+  top:0px;  
 }
 
 .slick-next:hover:before {

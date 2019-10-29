@@ -2,6 +2,7 @@ body{
     background:#1C1C1E;
     margin: 0;
     height: 1000px;
+    padding: 0;
 }
 
 .slick_carousel{
@@ -16,11 +17,23 @@ body{
     width: 1189px;
     margin: auto; 
     color: white; 
-    padding-left: 64px;
-    font-family: Gotham Pro;
+    padding-left: 40px;
+    font-family: Gotham Pro Regular;
     font-size: 32px;
     line-height: 31px;
-    padding-top:72px;
+    padding-top:71px;
+}
+
+
+
+@font-face {
+font-family: 'Gotham Pro Regular';
+src: url('GothamPro.eot');
+src: url('GothamPro.eot?#iefix') format('embedded-opentype'),
+url('GothamPro.woff') format('woff'),
+url('GothamPro.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
 }
 
 .title_container h1{
@@ -32,7 +45,7 @@ body{
 
 .item_slick{
     position: relative;
-    margin: 18px 0px;
+    margin: 19px 0px;
     width: auto !important;
 }
 
@@ -51,10 +64,10 @@ body{
 
 .image_description h3{
     color: white;
-    padding-bottom: 24px;
+    padding-bottom: 2px;
     padding-left: 24px;
     transform: matrix(1, 0, 0, -1, 0, 0);
-    font-family: Gotham Pro;
+    font-family: 'Gotham Pro Regular';
     font-size: 24px;
     line-height: 130%;
 }
@@ -80,7 +93,7 @@ body{
     font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 97%;
+    top: 98%;
     display: block;
     width: 20px;
     height: 20px;
@@ -111,7 +124,7 @@ body{
 .slick-prev:before {
   content: url(../prev.svg);
   position: absolute;
-  right: 50px;
+  right: 66px;
   top:-7px;
 }
 
@@ -122,7 +135,7 @@ body{
 .slick-next:before {
   content: url(../next.svg);
   position: absolute;
-  left: 60px;
+  left: 68px;
   top:-7px;  
 }
 
@@ -166,7 +179,7 @@ body{
     line-height: 0;
     display: block;
     width: 20px;
-    height: 20px;
+    height: 10px;
     padding: 5px;
     cursor: pointer;
     color: transparent;
@@ -220,10 +233,14 @@ body{
         width: 677px;
         margin: auto; 
         color: white; 
-        padding-left: 0px;
+        padding-left: 37px;
         font-family: Gotham Pro;
         font-size: 32px;
         line-height: 31px;
+    }
+
+    .title_container h1 {
+        font-size: 36px;
     }
 }
 

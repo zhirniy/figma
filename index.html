@@ -8,8 +8,28 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<style type="text/css">
+		#layout{
+	/* Позиционируем макет */
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin: 0 0 0 -384px;
+
+		/* Делаем его полупрозрачным */
+		opacity: .5;
+
+		/* Оставляем возможность взаимодействия с элементами */
+		pointer-events: none;
+
+		/* Инвертируем изображение в вашем любимом -webkit (-blink) браузере */
+		-webkit-filter: invert(80%);
+		z-index: 10;
+		}
+	</style>
 </head>
 <body>
+	<!--<img src="../768.svg" width="768" height="940" id="layout">-->
 	<!-- Title slick -->
 	<div class="title_container">
 		<h1>Популярные игры</h1>

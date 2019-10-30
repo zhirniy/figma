@@ -1,7 +1,7 @@
 body{
     background:#1C1C1E;
     margin: 0;
-    height: 1000px;
+    height: 1020px;
     padding: 0;
 }
 
@@ -86,7 +86,7 @@ font-style: normal;
     text-align: center;
     margin: 20px 0px;
     height: 40px;
-    padding-right: 64px;
+    padding-right: 85px;
 }
 
 .slick-prev, .slick-next {
@@ -195,10 +195,10 @@ font-style: normal;
 
 .slick-dots li button:before {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 20px;
     line-height: 20px;
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 0;
     width: 20px;
     height: 20px;
@@ -209,6 +209,21 @@ font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+.slick-dots li {
+    width: 14px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots li.slick-active button:before {
+    font-size: 35px;
+}
+
+
+
 
 
 @media (max-width: 1279px){
@@ -242,6 +257,7 @@ font-style: normal;
     .title_container h1 {
         font-size: 36px;
     }
+
 }
 
 @media (max-width: 767px){
@@ -265,10 +281,10 @@ font-style: normal;
     }
 
     .title_container{
-        width: 302px;
+        width: 375px;
         margin: auto; 
         color: white; 
-        padding-left: 24px;
+        padding-left: 21px;
         font-family: Gotham Pro;
         font-size: 24px !important;
         line-height: 31px;
@@ -277,6 +293,23 @@ font-style: normal;
     .slick-next, .slick-prev{
         display: none !important;
     }
+
+    .slick-dots {
+        padding: 0;
+        margin: 16px 0px;
+        padding-right: 3px;
+    }
+
+    .title_container h1 {
+        font-size: 35px;
+        -webkit-transform: scale(1.03,1);
+        -moz-transform: scale(1.03,1);
+        -ms-transform: scale(1.03,1);
+        -o-transform: scale(1.03,1);
+        transform: scale(1.03,1);
+    }
+
+
 
 
 }
